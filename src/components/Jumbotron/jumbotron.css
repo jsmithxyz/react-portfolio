@@ -1,0 +1,19 @@
+.jumbo {
+  height: 950px;
+  background-color: black;
+  text-align: center;
+}
+
+.nameLead {
+  color: rgb(41, 171, 223);
+  font-size: 100px;
+}
+
+.titleLead {
+  color: white;
+  font-size: 50px;
+}
+
+button {
+  color: rgb(41, 171, 223);
+}
