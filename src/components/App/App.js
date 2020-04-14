@@ -1,12 +1,14 @@
 import React, { Fragment } from "react";
-import Container from "@material-ui/core/Container";
 import StickyFooter from "../Footer/StickyFooter";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBarComp from "../Navbar/Navbar";
 
 class App extends React.Component {
   render() {
     return (
       <Fragment>
-        <Container maxWidth='sm' />
+        <NavBarComp />
+
         <StickyFooter />
       </Fragment>
     );
