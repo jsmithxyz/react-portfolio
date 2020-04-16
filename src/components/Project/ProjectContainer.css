@@ -1,5 +1,22 @@
 .projContainer {
   height: 100vh;
-  background-image: url("/images/jumboBG.jpg");
-  background-size: cover;
+  /* background-image: url("/images/jumboBG.jpg");
+  background-size: cover; */
+  background-color: white;
+  font-family: "Rambla", sans-serif;
+}
+.projContainerHeader {
+  font-size: 100px;
+  text-align: center;
+}
+
+.projContainerSubHeader {
+  font-size: 30px;
+  text-align: center;
+}
+
+#header-break {
+  width: 50%;
+  border-width: 0.3em;
+  border-color: black;
 }

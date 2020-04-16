@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import projects from "../../myprojects";
 import "./Projects.css";
 
@@ -10,20 +10,21 @@ class Projects extends React.Component {
     return (
       <Container>
         <Row className='projectRow'>
-          <Col xs={4} md={6} lg={6}>
+          <Col xs={12} md={6} lg={6}>
             <img
               className='image'
               src={project1.image}
               alt='Philly Auto Emporium'
             />
           </Col>
-          <Col xs={8} md={6} lg={6}>
-            <h1>
+          <Col xs={12} md={6} lg={6}>
+            <h1 className='project-name'>
               <strong>{project1.name}</strong>
             </h1>
-            <h2>{project1.desc}</h2>
+            <p className='description'>{project1.desc}</p>
           </Col>
         </Row>
+        <hr id='projectBreaks'></hr>
         <Row>
           <Col xs={4} md={6} lg={6}>
             <img
@@ -33,10 +34,10 @@ class Projects extends React.Component {
             />
           </Col>
           <Col xs={8} md={6} lg={6}>
-            <h1>
+            <h1 className='project-name'>
               <strong>{project2.name}</strong>
             </h1>
-            <h2>{project2.desc}</h2>
+            <p className='description'>{project2.desc}</p>
           </Col>
         </Row>
       </Container>
