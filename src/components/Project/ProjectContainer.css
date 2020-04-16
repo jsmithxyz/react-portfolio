@@ -1,3 +1,5 @@
 .projContainer {
   height: 100vh;
+  background-image: url("/images/jumboBG.jpg");
+  background-size: cover;
 }
