@@ -1,19 +1,26 @@
 import React, { Fragment } from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import "./Navbar.css";
 
 class NavbarComp extends React.Component {
   render() {
     return (
       <Fragment>
-        <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
-          <Navbar.Brand href='#home'>Jordan Smith</Navbar.Brand>
+        <Navbar
+          className='navbar'
+          collapseOnSelect
+          expand='lg'
+          bg='dark'
+          variant='dark'
+        >
+          {/* <Navbar.Brand href='#home'>Jordan Smith</Navbar.Brand> */}
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav>
-              <Nav.Link href='#deets'>
+              <Nav.Link href='#portfolio'>
                 <i class='far fa-folder-open' />
               </Nav.Link>
-              <Nav.Link href='#memes'>
+              <Nav.Link href='#contact'>
                 <i class='far fa-address-card' />
               </Nav.Link>
             </Nav>

@@ -9,11 +9,11 @@ class JumbotronComp extends React.Component {
     return (
       <Jumbotron className='jumbo' fluid>
         <Container>
-          <h1 className='nameLead'>Jordan Smith</h1>
-          <p className='titleLead'>.web developer.</p>
-          <Fab className='jumboFab' aria-label='add'>
+          <h1 className='nameLead fadeInUp animated'>JORDAN SMITH</h1>
+          <p className='titleLead fadeInDown animated'>.web developer.</p>
+          {/* <Fab className='jumboFab' aria-label='add'>
             <AddIcon />
-          </Fab>
+          </Fab> */}
         </Container>
       </Jumbotron>
     );
