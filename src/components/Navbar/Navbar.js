@@ -18,10 +18,10 @@ class NavbarComp extends React.Component {
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav>
               <Nav.Link href='#portfolio'>
-                <i class='far fa-folder-open' />
+                <i className='far fa-folder-open' />
               </Nav.Link>
               <Nav.Link href='#contact'>
-                <i class='far fa-address-card' />
+                <i className='far fa-address-card' />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
