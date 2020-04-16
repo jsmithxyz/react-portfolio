@@ -26,14 +26,14 @@ class Projects extends React.Component {
         </Row>
         <hr id='projectBreaks'></hr>
         <Row>
-          <Col xs={4} md={6} lg={6}>
+          <Col xs={12} md={6} lg={6}>
             <img
               className='image'
               src={project2.image}
               alt='Philly Auto Emporium'
             />
           </Col>
-          <Col xs={8} md={6} lg={6}>
+          <Col xs={12} md={6} lg={6}>
             <h1 className='project-name'>
               <strong>{project2.name}</strong>
             </h1>

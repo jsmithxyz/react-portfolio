@@ -1,5 +1,5 @@
 .projContainer {
-  height: 100vh;
+  height: fit-content;
   /* background-image: url("/images/jumboBG.jpg");
   background-size: cover; */
   background-color: white;
