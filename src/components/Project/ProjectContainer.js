@@ -5,7 +5,7 @@ import "./ProjectContainer.css";
 class ProjectContainer extends React.Component {
   render() {
     return (
-      <div className='projContainer'>
+      <div className='projContainer' id='portfolio'>
         <p className='projContainerHeader'>.projects.</p>
         <p className='projContainerSubHeader'>
           Here's a selection of what I've been working on.
