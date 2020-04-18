@@ -1,3 +1,13 @@
+mark {
+  background-color: rgb(164, 216, 236);
+}
+
+mark:hover {
+  font-size: 45px;
+  background-color: rgb(86, 185, 224);
+  cursor: grab;
+}
+
 .skills-row {
   margin-left: 10px;
   margin-right: 10px;
@@ -6,7 +16,7 @@
 }
 
 .skills {
-  height: fit-content;
+  height: 100vh;
   background-color: white;
   color: black;
   font-family: "Rambla", sans-serif;
@@ -22,6 +32,16 @@
   font-size: 30px;
   text-align: center;
   text-shadow: -1px -1px 3px white, 2px 2px 4px #1b1b1b;
+}
+
+.skills-desc {
+  font-size: 25px;
+  text-align: center;
+}
+
+.skills-desc-links {
+  font-size: 30px;
+  text-align: center;
 }
 
 .snippet {

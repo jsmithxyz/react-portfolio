@@ -16,7 +16,7 @@ class Skills extends React.Component {
             <div className='sub-snippet-card'>
               <i className='fas fa-address-card icons'></i>
             </div>
-            <p>
+            <p className='skills-desc'>
               Certified Full-Stack Web Developer currently residing in
               Philadelphia. I love building things with code, and have a passion
               for problem solving. When I'm not coding, I enjoy playing music,
@@ -27,7 +27,7 @@ class Skills extends React.Component {
             <div className='sub-snippet-card'>
               <i className='fas fa-code icons'></i>
             </div>
-            <p>
+            <p className='skills-desc'>
               I have tried and tested experience with HTML5, CSS3, JavaScript,
               jQuery, Node, React, Express, Bootstrap, Foundation, and
               Materialize. I'm currently teaching myself Angular.js and
@@ -38,7 +38,7 @@ class Skills extends React.Component {
             <div className='sub-snippet-card'>
               <i className='fas fa-database icons'></i>
             </div>
-            <p>
+            <p className='skills-desc'>
               Trained in using MongoDB, MySQL, and Firebase. Database Management
               remains very interesting to me, and I'm looking to continue
               expanding my knowledge in this area!{" "}
@@ -48,14 +48,18 @@ class Skills extends React.Component {
             <div className='sub-snippet-card'>
               <i class='fas fa-user-tie icons'></i>
             </div>
-            <p>
+            <p className='skills-desc'>
               Utilizing a degree in Mathematics, I've spent 8+ years in the
-              Sales/Marketing realm. Specifically, I spent 3 years in IT
+              Sales/Marketing realm. Specifically, I spent 4 years in IT
               Marketing, managing accounts for Google, Oracle, HP, Veritas,
               Veeam, Splunk, Ultimate Software, and more!
             </p>
           </Col>
         </Row>
+        <p className='skills-desc-links'>
+          Make sure to inspect my code on <mark>GITHUB</mark>, follow me on
+          <mark>LINKEDIN</mark>, and download my <mark>RÉSUMÉ</mark>.
+        </p>
       </div>
     );
   }
