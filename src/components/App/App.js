@@ -27,10 +27,11 @@ class App extends React.Component {
       <Fragment>
         <NavBarComp />
         <JumbotronComp />
+        <Skills />
         <ProjectContainer>
           <Projects />
         </ProjectContainer>
-        <Skills />
+
         <Contact />
         <StickyFooter />
       </Fragment>

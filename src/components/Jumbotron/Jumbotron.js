@@ -9,8 +9,11 @@ class JumbotronComp extends React.Component {
         <Container>
           <Row>
             <Col sm={12}>
-              <h1 className='nameLead fadeInUp animated'>JORDAN SMITH</h1>
-              <p className='titleLead fadeInDown animated'>.web developer.</p>
+              <p className='titleLead fadeInDown animated'></p>
+              <h1 className='nameLead fadeInUp animated'>Jordan Smith</h1>
+              <p className='titleLead fadeInDown animated waves-effect'>
+                .web developer.
+              </p>
             </Col>
           </Row>
         </Container>
