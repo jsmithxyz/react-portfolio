@@ -7,6 +7,7 @@ import projects from "../../myprojects";
 import ProjectContainer from "../Project/ProjectContainer";
 import Projects from "../Project/Projects";
 import Contact from "../Contact/Contact";
+import Skills from "../Skills/Skills";
 
 class App extends React.Component {
   state = {
@@ -29,6 +30,7 @@ class App extends React.Component {
         <ProjectContainer>
           <Projects />
         </ProjectContainer>
+        <Skills />
         <Contact />
         <StickyFooter />
       </Fragment>
