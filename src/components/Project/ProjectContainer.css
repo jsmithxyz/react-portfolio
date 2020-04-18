@@ -1,19 +1,20 @@
 .projContainer {
   height: fit-content;
-  /* background-image: url("/images/jumboBG.jpg");
-  background-size: cover; */
   background-color: white;
+  background-image: url("/images/background-cement-concrete-paint-242236.jpg");
   font-family: "Rambla", sans-serif;
   padding-bottom: 40px;
 }
 .projContainerHeader {
   font-size: 100px;
   text-align: center;
+  text-shadow: -1px -1px 3px white, 2px 2px 4px #1b1b1b;
 }
 
 .projContainerSubHeader {
   font-size: 30px;
   text-align: center;
+  text-shadow: -1px -1px 3px white, 2px 2px 4px #1b1b1b;
 }
 
 #header-break {

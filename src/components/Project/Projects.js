@@ -21,20 +21,6 @@ function Projects() {
               src={project1.image}
               alt='Philly Auto Emporium'
             />
-            <div className='button-group'>
-              <Button
-                className='img-view-app'
-                onClick={() => handleClickApp(project1.website)}
-              >
-                View App
-              </Button>
-              <Button
-                className='img-view-app'
-                onClick={() => handleClickRepo(project1.githubURL)}
-              >
-                View Repo
-              </Button>
-            </div>
           </div>
         </Col>
         <Col xs={12} md={6} lg={6}>
@@ -42,12 +28,32 @@ function Projects() {
             <strong>{project1.name}</strong>
           </h1>
           <p className='description'>{project1.desc}</p>
+          <div className='button-group'>
+            <Button
+              className='img-view-app'
+              onClick={() => handleClickApp(project1.website)}
+            >
+              View App
+            </Button>
+            <Button
+              className='img-view-app'
+              onClick={() => handleClickRepo(project1.githubURL)}
+            >
+              View Repo
+            </Button>
+          </div>
         </Col>
       </Row>
       <hr id='projectBreaks'></hr>
       <Row className='projectRow'>
         <Col xs={12} md={6} lg={6}>
           <img className='image' src={project2.image} alt='Pooch Quest' />
+        </Col>
+        <Col xs={12} md={6} lg={6}>
+          <h1 className='project-name'>
+            <strong>{project2.name}</strong>
+          </h1>
+          <p className='description'>{project2.desc}</p>
           <div className='button-group'>
             <Button
               className='img-view-app'
@@ -63,17 +69,17 @@ function Projects() {
             </Button>
           </div>
         </Col>
-        <Col xs={12} md={6} lg={6}>
-          <h1 className='project-name'>
-            <strong>{project2.name}</strong>
-          </h1>
-          <p className='description'>{project2.desc}</p>
-        </Col>
       </Row>
       <hr id='projectBreaks'></hr>
       <Row className='projectRow'>
         <Col xs={12} md={6} lg={6}>
           <img className='image' src={project3.image} alt='Godzilla Quiz' />
+        </Col>
+        <Col xs={12} md={6} lg={6}>
+          <h1 className='project-name'>
+            <strong>{project3.name}</strong>
+          </h1>
+          <p className='description'>{project3.desc}</p>
           <div className='button-group'>
             <Button
               className='img-view-app'
@@ -89,17 +95,17 @@ function Projects() {
             </Button>
           </div>
         </Col>
-        <Col xs={12} md={6} lg={6}>
-          <h1 className='project-name'>
-            <strong>{project3.name}</strong>
-          </h1>
-          <p className='description'>{project3.desc}</p>
-        </Col>
       </Row>
       <hr id='projectBreaks'></hr>
       <Row className='projectRow'>
         <Col xs={12} md={6} lg={6}>
           <img className='image' src={project4.image} alt='Eat-Da-Burger' />
+        </Col>
+        <Col xs={12} md={6} lg={6}>
+          <h1 className='project-name'>
+            <strong>{project4.name}</strong>
+          </h1>
+          <p className='description'>{project4.desc}</p>
           <div className='button-group'>
             <Button
               className='img-view-app'
@@ -114,12 +120,6 @@ function Projects() {
               View Repo
             </Button>
           </div>
-        </Col>
-        <Col xs={12} md={6} lg={6}>
-          <h1 className='project-name'>
-            <strong>{project4.name}</strong>
-          </h1>
-          <p className='description'>{project4.desc}</p>
         </Col>
       </Row>
     </Container>

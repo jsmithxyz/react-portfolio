@@ -20,7 +20,7 @@ class NavbarComp extends React.Component {
               <Nav.Link href='#portfolio'>
                 <i className='far fa-folder-open' />
               </Nav.Link>
-              <Nav.Link href='#'>
+              <Nav.Link href='#contact'>
                 <i className='far fa-address-card' />
               </Nav.Link>
             </Nav>

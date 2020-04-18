@@ -1,0 +1,23 @@
+.contact-page {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Rambla", sans-serif;
+  padding-top: 250px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#contact-break {
+  background-color: white;
+}
+
+.contact-subtext {
+  font-size: 20px;
+}
+
+.contact-align {
+  justify-content: center;
+}

@@ -6,6 +6,7 @@ import JumbotronComp from "../Jumbotron/Jumbotron";
 import projects from "../../myprojects";
 import ProjectContainer from "../Project/ProjectContainer";
 import Projects from "../Project/Projects";
+import Contact from "../Contact/Contact";
 
 class App extends React.Component {
   state = {
@@ -28,6 +29,7 @@ class App extends React.Component {
         <ProjectContainer>
           <Projects />
         </ProjectContainer>
+        <Contact />
         <StickyFooter />
       </Fragment>
     );
