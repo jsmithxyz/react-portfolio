@@ -7,7 +7,7 @@ class Contact extends React.Component {
     return (
       <Fragment>
         <Row className='contact-page' id='contact'>
-          <Col xs={12} m={6} lg={6}>
+          <Col className='contact-section' xs={12} m={6} lg={6}>
             <p className='footer-text'>
               Let's Get in Touch!
               <hr id='contact-break'></hr>
@@ -20,12 +20,12 @@ class Contact extends React.Component {
             </p>
             <p className='footer-text'>
               <i className='far fa-envelope'></i>{" "}
-              <a href='mailto:jordansmith3813@gmail.com'>
+              <a className='email-link' href='mailto:jordansmith3813@gmail.com'>
                 jordansmith3813@gmail.com{" "}
               </a>
             </p>
           </Col>
-          <Col xs={12} m={6} lg={6}>
+          <Col className='contact-section' xs={12} m={6} lg={6}>
             <p className='footer-text'>Connect with Me!</p>
             <hr id='contact-break'></hr>
             <Row className='contact-align'>

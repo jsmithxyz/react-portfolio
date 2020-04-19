@@ -24,11 +24,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .jumbo {
+    padding-top: 100px;
+  }
   .nameLead {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .titleLead {
-    font-size: 25px;
+    font-size: 35px;
   }
 }

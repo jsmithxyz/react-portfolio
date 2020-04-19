@@ -53,3 +53,19 @@ img {
 Button {
   margin: 8px;
 }
+
+@media only screen and (max-width: 600px) {
+  .projectRow {
+    padding-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .project-name {
+    font-size: 35px;
+    margin-top: 15px;
+  }
+  .description {
+    font-size: 12px;
+    text-align: center;
+  }
+}

@@ -16,10 +16,12 @@ mark:hover {
 }
 
 .skills {
-  height: 100vh;
+  height: fit-content;
   background-color: white;
   color: black;
   font-family: "Rambla", sans-serif;
+  padding-top: 80px;
+  margin-bottom: 140px;
 }
 
 .skillsContainerHeader {
@@ -62,4 +64,38 @@ mark:hover {
 
 .icons {
   font-size: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .skillsContainerHeader {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -1px -1px 3px white, 2px 2px 4px #1b1b1b;
+  }
+
+  .skillsContainerSubHeader {
+    font-size: 12px;
+    text-align: center;
+    text-shadow: -1px -1px 3px white, 2px 2px 4px #1b1b1b;
+  }
+
+  .icons {
+    font-size: 30px;
+  }
+
+  .skills-desc {
+    font-size: 12px;
+    text-align: center;
+  }
+  .skills-row {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .skills-desc-links {
+    font-size: 20px;
+    text-align: center;
+  }
 }
