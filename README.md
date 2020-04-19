@@ -1,3 +1,12 @@
-# Jordan Smith Portfolio
+# React Portfolio
 
-This is my portfolio made with Reactjs
+This is my website/portfolio primarily built with ReactJS
+
+# Summary
+
+This portfolio was designed to showcase my recent projects, as well as provide some biographical information, résume, and contact information for anyone accessing the page.
+
+# Installation
+
+This portfolio was built using the CSS framework, React-Bootstrap.
+ReactJS, Font Awesome, Animate.css, and Google Fonts were used for design and functionality.
