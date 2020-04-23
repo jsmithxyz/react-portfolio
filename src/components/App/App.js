@@ -31,7 +31,6 @@ class App extends React.Component {
         <ProjectContainer>
           <Projects />
         </ProjectContainer>
-
         <Contact />
         <StickyFooter />
       </Fragment>
