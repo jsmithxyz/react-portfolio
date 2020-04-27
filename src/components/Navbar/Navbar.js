@@ -19,14 +19,14 @@ class NavbarComp extends React.Component {
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav>
-              <Nav.Link href='/Skills'>
+              <Nav.Link href='#skills'>
                 <i class='fas fa-user-circle'></i>
               </Nav.Link>
 
-              <Nav.Link href='/Projects'>
+              <Nav.Link href='#projects'>
                 <i class='fas fa-folder-open'></i>
               </Nav.Link>
-              <Nav.Link href='/Contact'>
+              <Nav.Link href='#contact'>
                 <i class='fas fa-at'></i>
               </Nav.Link>
             </Nav>

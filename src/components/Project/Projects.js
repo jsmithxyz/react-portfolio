@@ -13,7 +13,7 @@ function Projects() {
   }
   return (
     <Container>
-      <Row className='projectRow'>
+      <Row className='projectRow' id='projects'>
         <Col xs={12} md={6} lg={6}>
           <div class='img__wrap'>
             <img
