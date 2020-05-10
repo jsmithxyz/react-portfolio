@@ -1,4 +1,11 @@
 const projects = {
+  project0: {
+    name: "MAJJ",
+    image: "/images/login.gif",
+    desc: `MAJJ is a web application that serves the user fresh content from thousands of providers, presenting the ability to conveniently view and save articles for your reading pleasure. In the event that you’re unable to view content in the moment or find content but want to save it for later use, MAJJ allows you to create your own profile, filter through content based on your interests and save this content and your interests all in a single location for you to re-visit whenever you please.`,
+    githubURL: "https://github.com/jsmithxyz/majj",
+    website: "https://www.majj.app/",
+  },
   project1: {
     name: "Philly Auto Emporium",
     image: "/images/PhillyCarEmporium.png",
