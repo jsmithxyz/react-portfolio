@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import handleClick from "../../utils/helper";
-import pdf from "./JSTechRes.pdf";
+import pdf from "./JordanSmith-TechResume.pdf";
 import "./Skills.css";
 
 function Skills() {
