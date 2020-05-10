@@ -19,7 +19,7 @@ mark:hover {
   height: fit-content;
   background-color: white;
   color: black;
-  font-family: "Rambla", sans-serif;
+  font-family: "Raleway", sans-serif;
   padding-top: 80px;
   margin-bottom: 140px;
 }
@@ -37,8 +37,9 @@ mark:hover {
 }
 
 .skills-desc {
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
+  line-height: 150%;
 }
 
 .skills-desc-links {
@@ -49,7 +50,7 @@ mark:hover {
 .snippet {
   text-align: center;
   color: black;
-  font-family: "Rambla", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 .sub-snippet-card {

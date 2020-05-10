@@ -9,18 +9,16 @@
 .nameLead {
   color: rgb(41, 171, 223);
   font-size: 125px;
-  font-family: "Rambla", sans-serif;
-
-  font-style: bold;
-  text-shadow: -1px -1px 3px #020202, 2px 2px 4px white;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
 }
 
 .titleLead {
   color: white;
   font-size: 50px;
   font-style: bold;
-  font-family: "Rambla", sans-serif;
-  text-shadow: -1px -1px 3px #020202, 2px 2px 4px white;
+  font-family: "Raleway", sans-serif;
+  text-shadow: -1px -1px 3px #020202, 2px 2px 4px rgb(41, 171, 223);
 }
 
 @media only screen and (max-width: 960px) {
