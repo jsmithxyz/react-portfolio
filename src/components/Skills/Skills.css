@@ -1,10 +1,10 @@
 mark {
-  background-color: rgb(164, 216, 236);
+  background-color: rgb(136, 212, 241);
 }
 
 mark:hover {
   font-size: 45px;
-  background-color: rgb(86, 185, 224);
+  background-color: #4fc3f7;
   cursor: grab;
 }
 
