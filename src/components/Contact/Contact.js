@@ -8,10 +8,9 @@ class Contact extends React.Component {
       <Fragment>
         <Row className='contact-page' id='contact'>
           <Col className='contact-section' xs={12} m={6} lg={6}>
-            <p className='footer-text'>
-              Let's Get in Touch!
-              <hr id='contact-break'></hr>
-            </p>
+            <p className='footer-text'>Let's Get in Touch!</p>
+            <hr id='contact-break'></hr>
+
             <p className='contact-subtext'>
               Need to contact me? Feel free to reach out via phone or e-mail.
             </p>

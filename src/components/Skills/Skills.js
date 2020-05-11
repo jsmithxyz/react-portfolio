@@ -47,7 +47,7 @@ function Skills() {
         </Col>
         <Col className='snippet' xs={6} m={3} lg={3}>
           <div className='sub-snippet-card'>
-            <i class='fas fa-user-tie icons'></i>
+            <i className='fas fa-user-tie icons'></i>
           </div>
           <p className='skills-desc'>
             Utilizing a degree in Mathematics, I've spent 8+ years in the

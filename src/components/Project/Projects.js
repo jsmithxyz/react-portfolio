@@ -15,7 +15,7 @@ function Projects() {
     <Container>
       <Row className='projectRow' id='projects'>
         <Col xs={12} md={6} lg={6}>
-          <div class='img__wrap'>
+          <div className='img__wrap'>
             <img className='image' src={project0.image} alt='MAJJ' />
           </div>
         </Col>
@@ -43,7 +43,7 @@ function Projects() {
       <hr id='projectBreaks'></hr>
       <Row className='projectRow' id='projects'>
         <Col xs={12} md={6} lg={6}>
-          <div class='img__wrap'>
+          <div className='img__wrap'>
             <img
               className='image'
               src={project1.image}
