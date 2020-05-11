@@ -17,7 +17,7 @@
   position: absolute;
   top: 0px;
   right: -150px;
-  margin-right: 50px;
+  margin-right: 80px;
 }
 
 .titleLead {
@@ -28,7 +28,7 @@
   text-shadow: -1px -1px 3px #020202, 2px 2px 4px #4fc3f7;
   position: absolute;
   top: 125px;
-  right: 35px;
+  right: 70px;
 }
 
 @media only screen and (max-width: 1024px) {
