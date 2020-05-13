@@ -31,8 +31,8 @@ function Skills() {
           <p className='skills-desc'>
             I have tried and tested experience with HTML5, CSS3, JavaScript,
             jQuery, Node, React, Express, Bootstrap, Foundation, and
-            Materialize. I'm currently teaching myself Angular.js and expanding
-            my React.js knowledge!{" "}
+            Materialize. I'm currently teaching myself Angular and expanding my
+            React knowledge!{" "}
           </p>
         </Col>
         <Col className='snippet' xs={6} m={3} lg={3}>
