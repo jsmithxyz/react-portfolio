@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 
 import "./Navbar.css";
 
@@ -19,16 +20,16 @@ class NavbarComp extends React.Component {
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav>
-              <Nav.Link href='#skills'>
+              <Link to='skills' smooth duration='1000'>
                 <i className='fas fa-user-circle'></i>
-              </Nav.Link>
+              </Link>
 
-              <Nav.Link href='#projects'>
-                <i className='fas fa-folder-open'></i>
-              </Nav.Link>
-              <Nav.Link href='#contact'>
-                <i className='fas fa-at'></i>
-              </Nav.Link>
+              <Link to='projects'>
+                <i className='fas fa-folder-open' smooth duration='1000'></i>
+              </Link>
+              <Link to='contact'>
+                <i className='fas fa-at' smooth duration='1000'></i>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
