@@ -24,11 +24,11 @@ class NavbarComp extends React.Component {
                 <i className='fas fa-user-circle'></i>
               </Link>
 
-              <Link to='projects'>
-                <i className='fas fa-folder-open' smooth duration='1000'></i>
+              <Link to='portfolio' smooth duration='1000'>
+                <i className='fas fa-folder-open'></i>
               </Link>
-              <Link to='contact'>
-                <i className='fas fa-at' smooth duration='1000'></i>
+              <Link to='contact' smooth duration='1000'>
+                <i className='fas fa-at'></i>
               </Link>
             </Nav>
           </Navbar.Collapse>
