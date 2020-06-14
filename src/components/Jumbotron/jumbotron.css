@@ -1,7 +1,7 @@
 .jumbo {
   height: 100vh;
   background-color: black;
-  background-image: url("/images/coffee.jpg");
+  background-image: url(/images/coffee.jpg);
   background-size: cover;
   position: relative;
   text-align: center;

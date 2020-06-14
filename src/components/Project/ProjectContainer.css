@@ -1,7 +1,7 @@
 .projContainer {
   height: fit-content;
   background-color: white;
-  background-image: url("/images/background-cement-concrete-paint-242236.jpg");
+  background-image: url(/images/background-cement-concrete-paint-242236.jpg);
   font-family: "Raleway", sans-serif;
   padding-bottom: 40px;
   padding-top: 80px;
