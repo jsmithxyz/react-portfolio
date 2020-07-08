@@ -14,6 +14,14 @@ const projects = {
     website: "https://philly-car-emporium.herokuapp.com/",
   },
   project2: {
+    name: "NJB Painting Inc.",
+    image: "/images/NJBpainting.png",
+    desc:
+      "Developed a company website for NJB Painting Inc. as a freelance project, to help with their web presence and SEO optimization. This website is a MERN stack website, utilizing Mailgun/Nodemailer for form submission.",
+    githubURL: "https://github.com/jsmithxyz/njb-painting-website",
+    website: "https://www.njbpainting.com",
+  },
+  project3: {
     name: "Pooch Quest",
     image: "/images/PoochQuestPhoto.png",
     desc:
@@ -21,7 +29,7 @@ const projects = {
     githubURL: "https://github.com/jsmithxyz/pooch-quest",
     website: "https://alyssacucunato.com/pooch-quest/",
   },
-  project3: {
+  project4: {
     name: "Godzilla Quiz",
     image: "/images/GodzillaQuizPhoto.png",
     desc:
@@ -29,7 +37,7 @@ const projects = {
     githubURL: "https://github.com/jsmithxyz/godzilla-quiz",
     website: "https://jsmithxyz.github.io/godzilla-quiz/quiz.html",
   },
-  project4: {
+  project5: {
     name: "Eat-Da-Burger",
     image: "/images/BurgerApp.png",
     desc:

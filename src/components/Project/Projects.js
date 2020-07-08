@@ -4,7 +4,14 @@ import projects from "../../myprojects";
 import "./Projects.css";
 
 function Projects() {
-  const { project0, project1, project2, project3, project4 } = projects;
+  const {
+    project0,
+    project1,
+    project2,
+    project3,
+    project4,
+    project5,
+  } = projects;
   function handleClickApp(url) {
     window.open(url);
   }
@@ -144,6 +151,32 @@ function Projects() {
             <Button
               className='img-view-app'
               onClick={() => handleClickRepo(project4.githubURL)}
+            >
+              View Repo
+            </Button>
+          </div>
+        </Col>
+      </Row>
+      <hr id='projectBreaks'></hr>
+      <Row className='projectRow'>
+        <Col xs={12} md={6} lg={6}>
+          <img className='image' src={project5.image} alt='Eat-Da-Burger' />
+        </Col>
+        <Col xs={12} md={6} lg={6}>
+          <h1 className='project-name'>
+            <strong>{project5.name}</strong>
+          </h1>
+          <p className='description'>{project5.desc}</p>
+          <div className='button-group'>
+            <Button
+              className='img-view-app'
+              onClick={() => handleClickApp(project5.website)}
+            >
+              View App
+            </Button>
+            <Button
+              className='img-view-app'
+              onClick={() => handleClickRepo(project5.githubURL)}
             >
               View Repo
             </Button>
